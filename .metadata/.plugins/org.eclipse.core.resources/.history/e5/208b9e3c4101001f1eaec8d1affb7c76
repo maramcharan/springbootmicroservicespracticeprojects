@@ -1,0 +1,20 @@
+package com.example.demo;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import com.example.annotations.Material;
+
+
+@Component("s")
+public class st {
+	
+
+	@Autowired
+	private Material m1;
+	
+	public void getmaterial() {
+		m1.materialname();
+	}
+
+}

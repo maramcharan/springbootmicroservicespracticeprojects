@@ -1,0 +1,14 @@
+spring.application.name=4-injectingData-spell
+
+
+#hotel details
+
+HotelLocation=Hyderabad
+HotelPhone=899992999
+
+#Hotel Menu Details
+
+IdlyPrice=40
+DosaPrice=60
+WadaPrice=40
+

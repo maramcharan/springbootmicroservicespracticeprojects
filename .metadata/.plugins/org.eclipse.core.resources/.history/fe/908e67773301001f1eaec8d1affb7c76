@@ -1,0 +1,18 @@
+package com.example.annotations;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component("student")
+public class Student {
+	
+	@Autowired
+	private Material m1;
+	
+	public void getmaterial() {
+		m1.materialname();
+	}
+	
+	
+
+}
